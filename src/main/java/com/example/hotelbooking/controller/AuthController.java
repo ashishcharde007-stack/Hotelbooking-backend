@@ -16,7 +16,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 //@CrossOrigin(origins = "http://localhost:4200/")
-@CrossOrigin(origins = "https://hotelbookinsystem-f668f.web.app")
+@CrossOrigin(origins = {"http://localhost:4200", "https://hotelbookinsystem-f668f.web.app"})
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
