@@ -3,7 +3,6 @@ package com.example.hotelbooking.service;
 
 import com.example.hotelbooking.entity.User;
 import com.example.hotelbooking.repository.UserRepository;
-import lombok.var;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.*;

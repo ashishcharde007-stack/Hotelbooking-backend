@@ -4,7 +4,7 @@ package com.example.hotelbooking.security;
 import com.example.hotelbooking.service.UserService;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
-import lombok.var;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -49,4 +49,5 @@ public class JwtFilter extends OncePerRequestFilter {
         }
         filterChain.doFilter(request, response);
     }
+
 }
