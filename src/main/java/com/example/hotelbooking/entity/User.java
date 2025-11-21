@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 @Entity
+@Table(name = "users")      // <-- FIX: rename table to avoid SQL Server keyword conflicts
 @Data
 public class User {
     @Id @GeneratedValue
